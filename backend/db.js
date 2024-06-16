@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 require('dotenv').config();
-const monoUrl = process.env.MONGO_URl;
+const monoUrl = process.env.MONGO_URL;
 
 
 mongoose.connect(monoUrl)
